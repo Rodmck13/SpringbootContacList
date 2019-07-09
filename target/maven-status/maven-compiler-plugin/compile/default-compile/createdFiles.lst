@@ -1,4 +1,7 @@
-com/zetcode/repository/CityRepository.class
-com/zetcode/MyRunner.class
 com/zetcode/Application.class
-com/zetcode/model/City.class
+com/zetcode/config/WebConfig.class
+com/zetcode/repository/ContactRepository.class
+com/zetcode/model/Contact.class
+com/zetcode/Controller/MyController.class
+com/zetcode/MyRunner.class
+com/zetcode/config/MyWebInitializer.class
