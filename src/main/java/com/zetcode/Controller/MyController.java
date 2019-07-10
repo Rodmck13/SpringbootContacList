@@ -19,21 +19,21 @@ public class MyController {
 
     @GetMapping(value="/", produces = MediaType.TEXT_PLAIN_VALUE)
     public String index() {
-
-        return "This is Home page";
+        var contacts = contactRepository.findAll();
+        return contacts.toString();
     }
 
-    @RequestMapping(value="/addUser/{id}",  method = RequestMethod.GET)
-    public String sayHello(@PathVariable("id") String name)
+    @RequestMapping(value="/addUser/{name}/{num}",  method = RequestMethod.GET)
+    public String addContact(@PathVariable("name") String name, @PathVariable("num") String num)
     {
 
-        contactRepository.save(new Contact(name, "234334"));
+        contactRepository.save(new Contact(name, num));
 
         logger.info("# of cities: {}", contactRepository.count());
 
-        logger.info("All cities unsorted:");
+       /* logger.info("All cities unsorted:");
         var cities = contactRepository.findAll();
-        logger.info("{}", cities);
+        logger.info("{}", cities);*/
 
         logger.info("------------------------");
 
@@ -43,12 +43,69 @@ public class MyController {
 
         logger.info("------------------------");
 
-        logger.info("Deleting all cities");
-        contactRepository.deleteAllInBatch();
-
-        logger.info("# of cities: {}", contactRepository.count());
 
 
-        return cities.toString();
+        return sortedCities.toString();
     }
+
+
+    @RequestMapping(value="/delete/{nameOrNum}",  method = RequestMethod.GET)
+    public String Delete(@PathVariable("nameOrNum") String str)
+    {
+
+        logger.info("Deleting: "+str);
+        contactRepository.deleteByname(str);
+        contactRepository.deleteByNumber(str);
+        logger.info("------------------------");
+        logger.info("# of contacts: {}", contactRepository.count());
+
+        logger.info("All contacts sorted by name in descending order");
+        var sortedContacts = contactRepository.findAll(new Sort(Sort.Direction.DESC, "name"));
+        logger.info("{}", sortedContacts);
+
+        logger.info("------------------------");
+        return sortedContacts.toString();
+
+    }
+    @RequestMapping(value="/deleteAll",  method = RequestMethod.GET)
+    public void DeleteAll()
+    {
+
+        logger.info("Deleting all contacts");
+        contactRepository.deleteAllInBatch();
+        logger.info("# of contacts: {}", contactRepository.count());
+
+    }
+
+
+
+    @RequestMapping(value="/modifyByNamede/{newName}/{oldName}", method = RequestMethod.GET)
+    public String modifyContactByName(@PathVariable("newName") String newName, @PathVariable("oldName") String oldName)
+    {
+
+        contactRepository.modifyName(newName, oldName);
+
+        var sortedContacts = contactRepository.findAll(new Sort(Sort.Direction.DESC, "name"));
+        logger.info("{}", sortedContacts);
+
+        logger.info("------------------------");
+        return sortedContacts.toString();
+    }
+
+    @RequestMapping(value="/modifyByNumber/{newNumber}/{oldNumber}", method = RequestMethod.GET)
+    public String modifyContactByNumber(@PathVariable("newNumber") String newNumber, @PathVariable("oldNumber") String oldNumber)
+    {
+
+        contactRepository.modifyNumber(newNumber, oldNumber);
+
+        var sortedContacts = contactRepository.findAll(new Sort(Sort.Direction.DESC, "name"));
+        logger.info("{}", sortedContacts);
+
+        logger.info("------------------------");
+        return sortedContacts.toString();
+    }
+
+
+
+
 }

@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57ef73dc-d248-4c5d-8585-d754a6011564" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetcode/Controller/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetcode/config/MyWebInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zetcode/config/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetcode/MyRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zetcode/MyRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetcode/model/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zetcode/model/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetcode/repository/CityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zetcode/repository/ContactRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cities.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetcode/MyRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zetcode/MyRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetcode/model/City.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zetcode/repository/CityRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetcode/Controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zetcode/Controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zetcode/repository/ContactRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zetcode/repository/ContactRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetcode/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetcode/Controller/MyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetcode/MyRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetcode/config/MyWebInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetcode/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetcode/model/Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zetcode/repository/ContactRepository.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/springbootjparepository-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/springbootjparepository-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/springbootjparepository-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/springbootjparepository-1.0-SNAPSHOT.jar.original" afterDir="false" />
     </list>
@@ -37,71 +29,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
+            <state relative-caret-position="73">
+              <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zetcode/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zetcode/MyRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="22" column="68" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zetcode/Controller/MyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+            <state relative-caret-position="278">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zetcode/config/MyWebInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,24 +63,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zetcode/model/Contact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#710#711#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zetcode/repository/ContactRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="405">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,7 +104,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zetcode/controller/Mycontroller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zetcode/Application.java" />
         <option value="$PROJECT_DIR$/target/cities.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zetcode/repository/ContactRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/improt.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/import.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/zetcode/model/Contact.java" />
@@ -183,11 +111,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zetcode/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zetcode/MyController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zetcode/config/MyWebInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zetcode/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/zetcode/MyRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zetcode/repository/ContactRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zetcode/Controller/MyController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zetcode/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -279,6 +209,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="RespositoryExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RespositoryExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -353,7 +289,7 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16380742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16380742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -364,16 +300,16 @@
       <window_info id="Job Explorer" order="8" weight="0.32982844" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6015119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40064794" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.38336933" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.38336933" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32937366" />
       <window_info anchor="bottom" id="Console" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.5258621" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.52483803" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -461,38 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zetcode/model/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zetcode/repository/ContactRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zetcode/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zetcode/config/MyWebInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -505,10 +409,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zetcode/MyRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
+        <state relative-caret-position="277">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -531,10 +438,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zetcode/MyRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zetcode/model/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="22" column="68" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="68" />
+        <state relative-caret-position="-150">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.7.Final/hibernate-core-5.3.7.Final.jar!/org/hibernate/hql/internal/ast/QuerySyntaxException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zetcode/repository/ContactRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -543,11 +469,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zetcode/Controller/MyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+        <state relative-caret-position="278">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zetcode/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
         </state>
       </provider>
     </entry>
