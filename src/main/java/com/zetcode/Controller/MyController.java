@@ -23,29 +23,27 @@ public class MyController {
         return contacts.toString();
     }
 
-    @RequestMapping(value="/addUser/{name}/{num}",  method = RequestMethod.GET)
+    @RequestMapping(value="/addContact/{name}/{num}",  method = RequestMethod.GET)
     public String addContact(@PathVariable("name") String name, @PathVariable("num") String num)
     {
 
         contactRepository.save(new Contact(name, num));
 
-        logger.info("# of cities: {}", contactRepository.count());
+        logger.info("# of Contact: {}", contactRepository.count());
 
-       /* logger.info("All cities unsorted:");
-        var cities = contactRepository.findAll();
-        logger.info("{}", cities);*/
+
 
         logger.info("------------------------");
 
-        logger.info("All cities sorted by name in descending order");
-        var sortedCities = contactRepository.findAll(new Sort(Sort.Direction.DESC, "name"));
-        logger.info("{}", sortedCities);
+        logger.info("All contact sorted by name in descending order");
+        var sortedContacts = contactRepository.findAll(new Sort(Sort.Direction.DESC, "name"));
+        logger.info("{}", sortedContacts);
 
         logger.info("------------------------");
 
 
 
-        return sortedCities.toString();
+        return sortedContacts.toString();
     }
 
 
